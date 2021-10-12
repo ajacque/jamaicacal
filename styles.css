@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+.button{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  background: #3D550C;
+  border: none;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover{
+  background-color: #D5CE58;
+}
+
+
+
+.textview{
+  width: 203px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: #4A7212;
+  background-color: #D5CE58;    /* #D1E2C4 */
+
+
+}
+
+#zero_button {
+  width:106px;
+}
+
+#equal_button {
+  height: 108px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  /* text-decoration: underline; */
+  font-family: fantasy;
+  margin-top: 60px;
+  color: #D5CE58;
+}
+
+
+body{
+  background: url("images/jam.jpg");
+
+
+}
+
+footer {
+  color: white;
+  margin-top: 500px;
+  text-align: center;
+  color: #D5CE58;
+}
